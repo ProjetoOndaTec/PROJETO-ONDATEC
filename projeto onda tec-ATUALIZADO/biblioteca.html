@@ -1,0 +1,122 @@
+<!DOCTYPE hmtl>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style20.css" rel=stylesheet>
+    <title>Portal OndaTec</title>
+</head>
+
+<body>
+    <div id="menu">
+        <link rel="stylesheet" href="css/style13.css">
+        <img src="img/onda.png" alt="logo onda tec">
+        <a href="index.html">
+            <div class="item">Inicio</div>
+        </a>
+        <a href="monitoria.html">
+            <div class="item">monitoria</div>
+        </a>
+        <a href="apoio.html">
+            <div class="item">materias</div>
+        </a>
+        <a href="materialmat.html">
+            <div class="item">material</div>
+        </a>
+        <a href="projeto.html">
+            <div class="item">projetos</div>
+        </a>
+        <a href="biblioteca.html">
+            <div class="item">biblioteca</div>
+        </a>
+    </div>
+    
+    <div class="titulo">
+        <h1>Nossa Biblioteca</h1>
+        <p>Tenha acesso gratuito ao nosso vasto acervo de livros e artigos cuidadosamente selecionados, os quais podem proporcionar uma base sólida para o seu desenvolvimento educacional. Nossa extensa biblioteca virtual abrange uma ampla gama de tópicos, desde ciências e história até literatura e filosofia, permitindo que você explore diferentes áreas de conhecimento e aprofunde sua compreensão acadêmica.</p>
+        <hr>
+    </div>
+    
+    <div class="cont">
+        <h1>CATEGORIAS</h1><br>
+
+        <div class="container-materias">
+            <div class="title">
+            </div><!--title-->
+            <div class="Caixa">
+                <div class="card">
+                    <i class="fa fa-bars"></i>
+                    <h4>matematica</h4>
+                    <p>Livros e artigos de matemática</p>
+                    <a href="bibliomat.html"><button class="btn">Saiba mais</button></a>
+                </div><!--card-->
+                <div class="card">
+                    <i class="fa fa-bars"></i>
+                    <h4>Português</h4>
+                    <p>Livros e artigos de português (indisponivel no momento)</p>
+                    <a href=""><button class="btn">Saiba mais</button></a>
+                </div><!--card-->
+                <div class="card">
+                    <i class="fa fa-bars"></i>
+                    <h4>Ciencia</h4>
+                    <p>Livros e artigos de ciências (indisponivel no momento)</p>
+                    <a href=""><button class="btn">Saiba mais</button></a>
+                </div><!--card-->
+            </div><!---caixa-->
+            <div class="Caixa">
+                <div class="card">
+                    <i class="fa fa-bars"></i>
+                    <h4>Geografia</h4>
+                    <p>Livros e artigos de geografia (indisponivel no momento)</p>
+                    <a href=""><button class="btn">Saiba mais</button></a>
+                </div><!--card-->
+                <div class="card">
+                    <i class="fa fa-bars"></i>
+                    <h4>História</h4>
+                    <p>Livros e artigos de História (indisponivel no momento)</p>
+                    <a href=""><button class="btn">Saiba mais</button></a>
+                </div><!--card-->
+                <div class="card">
+                    <i class="fa fa-bars"></i>
+                    <h4>Artes</h4>
+                    <p>Livros e artigos de Artes (indisponivel no momento)</p>
+                    <a href=""><button class="btn">Saiba mais</button></a>
+                </div><!--card-->
+            </div><!---caixa-->
+            <div class="Caixa">
+                <div class="card">
+                    <i class="fa fa-bars"></i>
+                    <h4>Ed. fisica</h4>
+                    <p>Livros e artigos de educação física< (indisponivel no momento)/p>
+                    <a href=""><button class="btn">Saiba mais</button></a>
+                </div><!--card-->
+                <div class="card">
+                    <i class="fa fa-bars"></i>
+                    <h4>Conhecimento do mundo</h4>
+                    <p>Livros e artigos de conhecimentos gerais (indisponivel no momento)</p>
+                    <a href=""><button class="btn">Saiba mais</button></a>
+                </div><!--card-->
+            </div><!---caixa-->
+        </div><!--conteiner-materias-->
+
+    </div>
+
+       <!--script do navbar-->
+       <script>var el = document.getElementById('menu'); // elemento alvo
+        var numPx = '250'; // Quantidade de pixels a contar do TOP até definir a cor
+
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > numPx) {
+                el.classList.add('mudaCor'); // adiciona classe "mudaCor"
+            } else {
+                el.classList.remove('mudaCor'); // remove classe "mudaCor"
+            }
+        });</script>
+</body>
+
+</html>

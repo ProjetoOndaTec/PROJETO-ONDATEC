@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
+
+html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Saira Condensed', sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+.titulo {
+    display: flex;
+    margin-top: 80px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo h1{
+    display: inline-block;
+}
+
+.titulo p{
+    display: flexbox;
+    margin-top: 30px;
+    width: 70%;
+    font-size: 20;
+    margin-bottom: 20px;
+}
+
+hr{
+    width: 72%;
+}
+
+.cont {
+    display: flex;
+    margin-top: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+.cont h1{
+    display: inline-block;
+    width: auto;
+}
+
+.cont p{
+    display: flexbox;
+    margin-top: 30px;
+    width: 70%;
+    font-size: 20;
+}
+
+.control{
+    display: flex;
+    flex-direction: column;
+}
+
+.control p{
+    font-size: 20;
+    margin: 20px 20px 20px 20px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+.container-materias {
+    background-color: #000000;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2 {
+    color: #fff;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #191919;
+    height: 335px;
+    width: 335px;
+    border-radius: 20px;
+    margin: 50px;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: inline-flexbox;
+}
+
+.card i {
+    font-size: 50px;
+    display: block;
+    margin: 15px 0;
+    text-align: center;
+    color: #082b2c;
+}
+
+.card h4 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+    padding: 3px;
+}
+
+.card p {
+    margin-left: 13%;
+    color: #fcfcfc;
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 10px;
+    padding: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn {
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 2px solid #082b2c;
+    cursor: pointer;
+    color: white;
+}
